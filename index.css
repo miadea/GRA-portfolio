@@ -1,0 +1,113 @@
+/* CSS Document */
+
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar {
+	display: flex;
+	background-color: #607d8b;
+}
+
+.navbar a {
+	padding: 20px;
+	color: white;
+	text-decoration: none;
+	font-size: 1.5rem;
+}
+
+.navbar a:hover {
+	background-color: #455a64;
+}
+
+.home-page {
+	display: flex;
+	flex-direction: column;
+}
+
+
+.home-page header {
+	display: flex;
+	flex-shrink: 0;
+	align-items: center;
+	font-size: 3rem;
+	justify-content: center;
+	text-shadow: 0 0 0.2em white, 0 0 0.2em white;
+	font-weight: bold;
+	height: 75vh;
+	background:  rgba(100,0,0,0.1) url("header-image.png") no-repeat top center fixed;
+	background-size: cover;
+}
+
+.home-page .main-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 20px 0 40px 0;
+}
+
+.home-page .main-content a {
+	padding: 20px;
+	font-size: 2rem;
+	text-decoration: none;
+	color: #8bc34a;
+}
+
+.home-page .main-content a:hover {
+	letter-spacing: 5px;
+}
+
+.home-page .main-content h1 {
+	padding: 20px;
+	font-size: 3rem;
+}
+
+.home-page .contact {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #eceff1;
+}
+
+.home-page .contact h1 {
+	padding: 20px 0 0 0;
+	font-size: 1.5rem;
+}
+
+.home-page .contact a {
+	text-decoration: none;
+	font-size: 1.5rem;
+	color: #8bc34a;
+}
+
+.home-page .contact .email-container {
+	padding: 10px 0 80px 0;
+}
+
+.home-page .contact a:hover {
+	color: #1de9b6;
+	text-decoration: underline;
+}
+
+.home-page .footer {
+	background-color: #cfd8dc;
+	height: 5vh;
+}
+
+.back-to-top {
+	background-color: #8bc34a;
+	border-radius: 50%;
+	position: fixed;
+	bottom: 50px;
+	right: 40px;
+	text-align: center;
+	height: 60px;
+	width: 60px;
+	line-height: 60px;
+	font-size: 1.5rem;
+	color: white;
+}

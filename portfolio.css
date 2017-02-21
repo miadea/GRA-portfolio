@@ -1,0 +1,43 @@
+/* CSS Document */
+
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar {
+	display: flex;
+	background-color: #607d8b;
+}
+
+.navbar a {
+	padding: 20px;
+	color: white;
+	text-decoration: none;
+	font-size: 1.5rem;
+}
+
+.navbar a:hover {
+	background-color: #455a64;
+}
+
+.block-wrapper {
+  width: 100%;
+  height: auto;
+  display: flex;   
+  flex-flow:row wrap;
+}
+  
+.block {
+	box-sizing: border-box;
+	/*    width: 25vw;
+	height: 25vw;*/
+	border: 1px solid rgba(255,255,255,1);
+	background-color: rgba(27,27,27,1);
+}
+  
+.block2x2 {
+	width: 50vw;
+	height: 50vw;
+}
